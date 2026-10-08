@@ -28,19 +28,19 @@ namespace Exercise2_FlowControl
                     case "1":
                         Console.WriteLine();
                         Console.WriteLine("1. För att se priset för en bio biljett");
-                        Console.WriteLine("2. För att se totalapriset för bio biljetter till ett sällskap");
+                        Console.WriteLine("2. För att se totalapriset för bio biljetter till ett sällskap");;
                         Console.Write("Välj alternativ: ");
 
                         switch (Console.ReadLine()?.Trim())
                         {
                             case "1":
-                                // Call the method to calculate the price for one movie ticket
-                                PriceForOneMovieTicket();
-                                break;
+                               // Call the method to calculate the price for one movie ticket
+                               PriceForOneMovieTicket();
+                               break;
                             case "2":
-                                // Call the method to calculate the total price for movie tickets for a group
-                                PriceForMovieTickets();
-                                break;
+                                 // Call the method to calculate the total price for movie tickets for a group
+                                 PriceForMovieTickets();
+                                 break;
                             default:
                                 Console.WriteLine("Ogiltigt val, försök igen.");
                                 break;
@@ -104,6 +104,7 @@ namespace Exercise2_FlowControl
             {
                 Console.WriteLine("Ogiltig ålder, försök igen.");
             }
+            //  }
         }
 
         //-----------------------------------------------------------------
